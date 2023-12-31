@@ -5,6 +5,7 @@
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Chat Service.runtimeconfig.json
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Chat Service.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Chat Service.pdb
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Humanizer.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.AspNetCore.Http.Connections.Client.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.AspNetCore.Http.Connections.Common.dll
@@ -13,13 +14,22 @@
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.AspNetCore.SignalR.Common.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.Extensions.Features.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Npgsql.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/System.CodeDom.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/obj/Debug/net7.0/Chat Service.csproj.AssemblyReference.cache
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/obj/Debug/net7.0/Chat Service.GeneratedMSBuildEditorConfig.editorconfig
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/obj/Debug/net7.0/Chat Service.AssemblyInfoInputs.cache
