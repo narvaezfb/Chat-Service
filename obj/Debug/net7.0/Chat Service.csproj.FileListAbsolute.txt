@@ -24,6 +24,7 @@
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Microsoft.OpenApi.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Npgsql.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/fabiannarvaez/Documents/Chat-System/Microservices/Chat Service/Chat Service/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
