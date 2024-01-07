@@ -27,6 +27,7 @@
     <None Remove="Models\ModelConfiguration\" />
     <None Remove="Data\" />
     <None Remove="Migrations\" />
+    <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hubs\" />
@@ -34,5 +35,6 @@
     <Folder Include="Models\ModelConfiguration\" />
     <Folder Include="Data\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 </Project>
