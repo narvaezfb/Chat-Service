@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Chat_Service.Migrations
 {
     [DbContext(typeof(ChatServiceDbContext))]
-    [Migration("20231231183044_MessageEntity")]
-    partial class MessageEntity
+    [Migration("20240107034644_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,15 +43,15 @@ namespace Chat_Service.Migrations
                         .HasColumnType("text");
 
                     b.Property<DateTime>("Timestamp")
-                        .HasColumnType("timestamp with time zone");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
                     b.HasKey("MessageId");
 
-                    b.HasIndex("ReceiverId")
-                        .IsUnique();
+                    b.HasIndex("ReceiverId");
 
-                    b.HasIndex("SenderId")
-                        .IsUnique();
+                    b.HasIndex("SenderId");
 
                     b.ToTable("Messages");
                 });

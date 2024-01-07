@@ -15,11 +15,12 @@ namespace Chat_Service.Models.ModelConfiguration
             builder.Property(m => m.Timestamp);
 
             //Indexes 
-            builder.HasIndex(m => m.SenderId).IsUnique();
-            builder.HasIndex(m => m.ReceiverId).IsUnique();
+            builder.HasIndex(m => m.SenderId);
+            builder.HasIndex(m => m.ReceiverId);
 
             //Timestamp 
-            builder.Property(m => m.Timestamp).HasColumnType("timestamp with time zone");  
+            builder.Property(m => m.Timestamp).HasColumnType("timestamp with time zone");
+            builder.Property(s => s.Timestamp).HasDefaultValueSql("CURRENT_TIMESTAMP");
         }
     }
 }

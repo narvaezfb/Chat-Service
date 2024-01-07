@@ -19,10 +19,16 @@ namespace Chat_Service.Hubs
         {
             try
             {
-                string userIdTest = "a44cfaea-0766-486f-83bf-5b9cf706f9ee";
+                string userId = Context.GetHttpContext().Request.Query["userId"];
+
+                if (string.IsNullOrEmpty(userId))
+                {
+                    throw new Exception();
+                }
+
                 var connectionId = Context.ConnectionId;
 
-                var userConnection = await _context.UserConnections.FindAsync(userIdTest);
+                var userConnection = await _context.UserConnections.FindAsync(userId);
 
                 if (userConnection != null)
                 {
@@ -30,12 +36,12 @@ namespace Chat_Service.Hubs
                 }
                 else
                 {
-                    UserConnection newUserConnection = new UserConnection(userIdTest, connectionId);
+                    UserConnection newUserConnection = new UserConnection(userId, connectionId);
                     await _context.UserConnections.AddAsync(newUserConnection);
                 }
                 await _context.SaveChangesAsync();
 
-                await Clients.Clients(connectionId).SendAsync($"User: {userIdTest} connected");
+                await Clients.Clients(connectionId).SendAsync($"User: {userId} connected");
 
                 await base.OnConnectedAsync();
             }

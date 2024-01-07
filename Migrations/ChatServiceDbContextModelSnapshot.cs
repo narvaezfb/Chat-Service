@@ -40,15 +40,15 @@ namespace Chat_Service.Migrations
                         .HasColumnType("text");
 
                     b.Property<DateTime>("Timestamp")
-                        .HasColumnType("timestamp with time zone");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
                     b.HasKey("MessageId");
 
-                    b.HasIndex("ReceiverId")
-                        .IsUnique();
+                    b.HasIndex("ReceiverId");
 
-                    b.HasIndex("SenderId")
-                        .IsUnique();
+                    b.HasIndex("SenderId");
 
                     b.ToTable("Messages");
                 });
